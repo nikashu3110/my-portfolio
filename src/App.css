@@ -1,0 +1,13 @@
+.dark-theme {
+  --bg: black;
+  --accent: white;
+}
+
+.light-theme {
+  --bg: white;
+  --accent: black;
+}
+
+body {
+  background-color: var(--bg);
+}

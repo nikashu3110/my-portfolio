@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+/* :root {
+  --dark-bg: black;
+  --dark-accent: white;
+
+  --light-bg: white;
+  --light-accent: black;
+} */
+
+/* .lightTheme {
+  --light-bg: white;
+  --light-accent: black;
+}
+
+.darkTheme {
+  --dark-bg: black;
+  --dark-accent: white;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+
+.logo {
+  font-family: "Anton", sans-serif;
+  font-size: 45px;
+}
+
+.logo a {
+  color: var(--accent);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.switch {
+  background: transparent;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  color: var(--accent);
+}
+
+.toggle {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#light {
+  visibility: visible;
+  position: relative;
+}
+
+#dark {
+  visibility: hidden;
+  position: absolute;
+}
