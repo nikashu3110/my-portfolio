@@ -1,28 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
-/* :root {
-  --dark-bg: black;
-  --dark-accent: white;
-
-  --light-bg: white;
-  --light-accent: black;
-} */
-
-/* .lightTheme {
-  --light-bg: white;
-  --light-accent: black;
-}
-
-.darkTheme {
-  --dark-bg: black;
-  --dark-accent: white;
-} */
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: none;
+  /* margin-bottom: 1rem; */
 }
 
 .logo {
@@ -31,7 +14,7 @@
 }
 
 .logo a {
-  color: var(--accent);
+  color: var(--light);
   text-decoration: none;
   margin-left: 20px;
 }
@@ -42,7 +25,7 @@
   display: flex;
   justify-content: center;
   border: none;
-  color: var(--accent);
+  color: var(--light);
 }
 
 .toggle {
