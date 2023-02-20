@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Greet from "../content/Greet";
 import "../main/Main.css";
 
 export default function Main() {
@@ -27,14 +26,27 @@ export default function Main() {
           </h2>
           <p>
             I am a Front-End Developer. My projects are mainly focused on{" "}
-            Web-Development. I have a experience working in <span>ReactJs</span>
-            , <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span> and{" "}
-            <span>Java</span>. I also have decent knowledge of{" "}
-            <span>Angular</span>, <span>PHP</span>, <span>MySQL</span> and{" "}
-            <span>Prototyping</span>. My goal is become a full stack developer
+            Web-Development. I have a experience working in <b>ReactJs</b>,{" "}
+            <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b> and <b>Java</b>. I also
+            have decent knowledge of <b>Angular</b>, <b>PHP</b>, <b>MySQL</b>{" "}
+            and <b>Prototyping</b>. My goal is become a full stack developer
           </p>
         </div>
       </section>
+
+      <div className="socials">
+        <a href="https://www.linkedin.com/in/ashutoshnikalje31/">
+          <i class="bi bi-linkedin fa-3x icons icon-1"></i>
+        </a>
+        <a href="https://github.com/nikashu3110">
+          {" "}
+          <i class="bi bi-github fa-3x icons icon-2 "></i>
+        </a>
+        <a href="">
+          {" "}
+          <i class="bi bi-twitter fa-3x icons icon-3"></i>
+        </a>
+      </div>
     </div>
   );
 }
